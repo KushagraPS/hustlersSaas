@@ -4,19 +4,16 @@ import "./globals.css";
 import { Providers } from "./providers";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import React, { useState } from 'react';
-
+import React from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hustlers | PedalStart ",
- 
   keywords: [''],
   authors: [{ }],
   creator: '',
   publisher: '',
- 
   openGraph: {
     title: 'HUSTLERS | PEDALSTART',
     description: 'Hustlers is a platform of micro communities',
@@ -30,7 +27,6 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
-
   icons: {
     icon: '/android-chrome-192x192.png',
     shortcut: '/apple-touch-icon.png',
@@ -40,8 +36,8 @@ export const metadata: Metadata = {
       url: '/apple-touch-icon.png',
     },
   },
+  metadataBase: new URL('http://localhost:3000') // Set metadataBase to resolve social open graph or Twitter images
 }
-
 
 export default function RootLayout({
   children,
