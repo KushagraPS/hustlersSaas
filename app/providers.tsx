@@ -23,7 +23,7 @@ export function Providers({children}: { children: React.ReactNode }) {
     </ContextMenuTrigger>
         <ContextMenuContent>
           <ContextMenuRadioGroup value="pedro">
-            <ContextMenuLabel inset>Join Hustler's Community</ContextMenuLabel>
+            <ContextMenuLabel inset>Join SaasHustlers Community</ContextMenuLabel>
           </ContextMenuRadioGroup>
           {/* <ContextMenuSeparator /> */}
           <Separator className='bg-gray-500' />

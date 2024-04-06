@@ -806,6 +806,9 @@ const styles = `
 `;
 
 // Dynamically inject styles into the document head
-const styleElement = document.createElement('style');
-styleElement.appendChild(document.createTextNode(styles));
-document.head.appendChild(styleElement);
+if (typeof document !== 'undefined') {
+  const styleElement = document.createElement('style');
+  styleElement.appendChild(document.createTextNode(styles));
+  document.head.appendChild(styleElement);
+}
+
