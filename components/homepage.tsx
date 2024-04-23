@@ -38,7 +38,7 @@ export default function Component() {
           </div>
         </div>
         <h1 className="text-center pl-15 lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]" style={{ paddingTop: '40px' }}>
-          Recent <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Updates</mark>
+          News for <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Hustlers</mark>
         </h1>
         <br />
         <br />
