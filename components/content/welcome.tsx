@@ -17,10 +17,10 @@ export default function Welcome() {
                 <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-5 md:grid-cols-2 md:gap-16 justify-center items-center">
                     <div>
                         <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                            Welcome to <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Hustlers</mark>
+                           SaaS Startup Squad? <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">We Got You!</mark>
                         </h1> 
                         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 pt-2">
-                            Join us for a week of innovation, learning, and fun! Participate in various events, workshops, and competitions.
+                           We're all startup founders, ditch the fancy suits and get down to the real hustle! We've built startups from scratch, made mistakes (learned a ton!), and launched like champs. Now, we want to share our stories (good and bad) to help you win!
                         </p>
                         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 pt-2">
                             <button 
