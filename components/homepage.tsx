@@ -30,7 +30,7 @@ export default function Component() {
         <div className="flex justify-center items-center">
           <div>
             <h1 className="text-center lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]" style={{ paddingTop: '40px' }}>
-              About <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Hustlers</mark>
+              The Not-So-Secret Weapon of <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">#HUSTLERS </mark>
             </h1>
             <br />
             <br />
