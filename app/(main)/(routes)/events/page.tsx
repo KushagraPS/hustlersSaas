@@ -137,34 +137,34 @@ export const projects = [
     link: "https://aws.amazon.com/free/?gclid=Cj0KCQjwlZixBhCoARIsAIC745DcJXm20SnMcnkEW-QbaaHd3NNAcFbintfsckxjmI9aJIaC99YDWrQaAlH6EALw_wcB&trk=14a4002d-4936-4343-8211-b5a150ca592b&sc_channel=ps&ef_id=Cj0KCQjwlZixBhCoARIsAIC745DcJXm20SnMcnkEW-QbaaHd3NNAcFbintfsckxjmI9aJIaC99YDWrQaAlH6EALw_wcB:G:s&s_kwcid=AL!4422!3!453325184782!e!!g!!aws!10712784856!111477279771&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all",
   },
   {
-    title: "Netflix",
+    title: "Market Research",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Skip the hours digging through data! Our Market Research tool helps you identify the hottest trends in your market, fast. Get the intel you need to dominate your competition before anyone else.",
+    link: "https://mailchimp.com/solutions/email-marketing-platform/?ds_c=DEPT_AOC_Google_Search_ROW_EN_NB_Acquire_Broad_50off_T5&ds_kids=p78365428698&ds_a_lid=kwd-10068951&ds_cid=71700000115522849&ds_agid=58700008587105020&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745DNbMnljUS6d3Fgx8SSro0j8Cm1NCutXNJA9_05Wg-Roc7YSZJTcIwaApUvEALw_wcB&gclsrc=aw.ds",
   },
   {
-    title: "Google",
+    title: "Pitch Deck Creator",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Design skills not your forte? No sweat! Our Pitch Deck Creator is your secret weapon. Craft a stunning investor pitch deck in minutes with our drag-and-drop tool. Investors will be begging to fund your dreams.",
+    link: "https://www.beautiful.ai/aipresentationmaker?utm_source=googleAds&utm_medium=searchGen&utm_campaign=20876785622&ntwrk=g&adgpid=157705829955&plcmnt=&utm_term=ai%20deck%20builder&lp=aipresentationmaker&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745DaHMtHLFUNVlg3Zd7_Wgu3T1Mnj8tzOLkkbIsAnBQz_1CBCfiWcacaAja8EALw_wcB",
   },
   {
-    title: "Meta",
+    title: "Wixsite",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "Building a website shouldn't be a headache. Wix makes creating a professional website for your startup a breeze. No coding required, just drag, drop, and launch your online empire in record time.",
+    link: "https://www.wix.com/",
   },
   {
-    title: "Amazon",
+    title: "Valuation Calculator ",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Need the perfect tool? Ours helps you choose! Enter your project details and our calculator finds the ideal solution for your startup.",
+    link: "https://www.omnicalculator.com/finance/pre-and-post-money-valuation",
   },
   {
-    title: "Microsoft",
+    title: "Resume Parser",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Hiring a team shouldn't be a chore. Our Resume Parser helps you quickly identify top talent for your open positions. Say goodbye to sifting through endless resumes - find rockstar applicants with superpowers in minutes.",
+    link: "https://resumeworded.com/score",
   },
 ];
 
