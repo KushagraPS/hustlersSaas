@@ -37,7 +37,7 @@ export default function Welcome() {
                             // width={700}
                             disableSkeleton={false}
                             className={`rounded-lg drop-shadow-xl mx-auto w-full  overflow-hidden rounded-t-xl object-cover ${!imageLoaded ? 'hidden' : ''}`}
-                            src={"https://pedalstart.com/startup/images/2023-08-3.jpg"}
+                            src={"https://cdni.iconscout.com/illustration/premium/thumb/saas-6431003-5314481.png"}
                             alt=""
                             onLoad={handleImageLoad}
                         />
