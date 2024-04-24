@@ -21,8 +21,7 @@ export default function Form() {
                     
                 </div>
                <CardHoverEffectDemo></CardHoverEffectDemo>
-               <CardHoverEffectDemo></CardHoverEffectDemo>
-               <CardHoverEffectDemo></CardHoverEffectDemo>
+            
             </div>
         );
     };
