@@ -8,13 +8,20 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-12 flex flex-col lg:flex-row justify-between">
         <div className="flex flex-col lg:flex-row gap-4 mb-8 lg:mb-0">
           {/* Logo */}
-          <div className="mb-4 lg:mb-0">
-            <img src="https://pedalstart.com/startup/images/2021-05-logo.png" alt="Logo" className="h-10 w-auto" />
-          </div>
+          <h1 style={{ fontSize: '30px', padding: '2px' }}>Saas<span style={{ 
+  fontSize: '35px', 
+  padding: '2px', 
+  backgroundImage: 'linear-gradient(to right, rgb(245 154 16), rgb(237 84 133))', 
+  WebkitBackgroundClip: 'text',
+  color: 'transparent' 
+}}><b>Hustlers</b></span>
+</h1>
           {/* About */}
           <div>
             <h2 className="text-lg font-bold mb-2">About SaaSHustlers</h2>
-            <p className="text-gray-600 dark:text-gray-400">Brief description about the company or website.</p>
+            <p className="text-white dark:text-white">Saashustlers is a crew of startup founders.</p>
+            <p> We have been there, coded that,</p>
+            <p>launched like a boss and we are here to share the success stories.</p>
           </div>
         </div>
         <div className="flex flex-col gap-4 mb-8 lg:mb-0">
