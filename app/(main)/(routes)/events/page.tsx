@@ -234,19 +234,7 @@ export function TypewriterEffectSmoothDemo() {
 }
 
 
-import { FollowerPointerCard } from "@/components/content/following-pointer";
 
-export function FollowingPointerDemo() {
-  return (
-    <div className="w-80 mx-auto">
-      <FollowerPointerCard
-        title={
-          <TitleComponent
-            title={blogContent.author}
-            avatar={blogContent.authorAvatar}
-          />
-        }
-      >
      
 
 import { cn } from "@/lib/utils";
