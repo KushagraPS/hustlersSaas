@@ -278,15 +278,15 @@ export function FollowingPointerDemo() {
 }
 
 const blogContent = {
-  slug: "amazing-tailwindcss-grid-layouts",
-  author: "Manu Arora",
-  date: "28th March, 2023",
-  title: "Amazing Tailwindcss Grid Layout Examples",
+  slug: " Navigating Distractions for Effective Presentations",
+ 
+  title: " Navigating Distractions for Effective Presentations",
   description:
-    "Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.",
+    "Your audience is giving you their time because they want to be educated and to see tangible benefits. However something as simple as an e-mail notification can draw your audience away from even the best of slides",
   image: "/demo/thumbnail.png",
   authorAvatar: "/manu.png",
 };
+
 
 const TitleComponent = ({
   title,
