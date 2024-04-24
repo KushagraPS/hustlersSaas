@@ -15,7 +15,7 @@ import Scheduleoff from "./content/scheduleoff"
 import Scheduleon from "./content/scheduleon"
 
 import Venue from "./content/venue"
-import { AnimatedPinDemo, AnimatedTooltipPreview, BentoGridThirdDemo, CardHoverEffectDemo, FollowingPointerDemo, ParallaxScrollSecondDemo, TypewriterEffectSmoothDemo } from "@/app/(main)/(routes)/events/page"
+import { AnimatedPinDemo, AnimatedTooltipPreview, BentoGridThirdDemo, CardHoverEffectDemo, ParallaxScrollSecondDemo, TypewriterEffectSmoothDemo } from "@/app/(main)/(routes)/events/page"
 import { AnimatedTooltip } from "./content/animated-tooltip"
 import Form from "../app/Forms/form"
 
@@ -37,42 +37,14 @@ export default function Component() {
             <BentoGridThirdDemo />
           </div>
         </div>
-        <h1 className="text-center pl-15 lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]" style={{ paddingTop: '40px' }}>
+{/*         <h1 className="text-center pl-15 lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]" style={{ paddingTop: '40px' }}>
           News for <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Hustlers</mark>
         </h1>
         <br />
-        <br />
-        <div style={{ position: 'relative', backgroundImage: 'url("https://png.pngtree.com/background/20210711/original/pngtree-white-smoke-in-black-background-picture-image_1167622.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', borderRadius:'20px' }}>
-  <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backdropFilter: 'blur(5px)', borderRadius:'20px' }}></div>
+        <br /> */}
+       
 
-  <div className="flex justify-center">
-    <ul className="flex flex-wrap justify-center list-none">
-      {[...Array(3)].map((_, index) => (
-        <li key={index} className="m-2">
-          <FollowingPointerDemo />
-        </li>
-      ))}
-    </ul>
-  </div>
-  <br />
-  <br />
-  <div className="flex justify-center">
-    <ul className="flex flex-wrap justify-center list-none">
-      {[...Array(3)].map((_, index) => (
-        <li key={index} className="m-2">
-          <FollowingPointerDemo />
-        </li>
-      ))}
-    </ul>
-  </div>
-</div>
-
-        <div className="flex justify-center items-center h-20">
-          <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-            Explore More
-          </button>
-        </div>
-
+      
       
 
         <Scheduleoff />
