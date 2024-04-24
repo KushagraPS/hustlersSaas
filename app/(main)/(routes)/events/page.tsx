@@ -139,19 +139,19 @@ export const projects = [
   {
     title: "Market Research",
     description:
-      "Skip the hours digging through data! Our Market Research tool helps you identify the hottest trends in your market, fast. Get the intel you need to dominate your competition before anyone else.",
+      "Skip the hours digging through data! Our Market Research tool helps you identify the hottest trends in your market, fast.",
     link: "https://mailchimp.com/solutions/email-marketing-platform/?ds_c=DEPT_AOC_Google_Search_ROW_EN_NB_Acquire_Broad_50off_T5&ds_kids=p78365428698&ds_a_lid=kwd-10068951&ds_cid=71700000115522849&ds_agid=58700008587105020&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745DNbMnljUS6d3Fgx8SSro0j8Cm1NCutXNJA9_05Wg-Roc7YSZJTcIwaApUvEALw_wcB&gclsrc=aw.ds",
   },
   {
     title: "Pitch Deck Creator",
     description:
-      "Design skills not your forte? No sweat! Our Pitch Deck Creator is your secret weapon. Craft a stunning investor pitch deck in minutes with our drag-and-drop tool. Investors will be begging to fund your dreams.",
+      "Design skills not your forte? No sweat! Our Pitch Deck Creator is your secret weapon. Craft a stunning investor pitch deck in minutes with our drag-and-drop tool.",
     link: "https://www.beautiful.ai/aipresentationmaker?utm_source=googleAds&utm_medium=searchGen&utm_campaign=20876785622&ntwrk=g&adgpid=157705829955&plcmnt=&utm_term=ai%20deck%20builder&lp=aipresentationmaker&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745DaHMtHLFUNVlg3Zd7_Wgu3T1Mnj8tzOLkkbIsAnBQz_1CBCfiWcacaAja8EALw_wcB",
   },
   {
     title: "Wixsite",
     description:
-      "Building a website shouldn't be a headache. Wix makes creating a professional website for your startup a breeze. No coding required, just drag, drop, and launch your online empire in record time.",
+      "Building a website shouldn't be a headache. Wix makes creating a professional website for your startup a breeze. Just drag, drop, and launch your online empire in record time.",
     link: "https://www.wix.com/",
   },
   {
