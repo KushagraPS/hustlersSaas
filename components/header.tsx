@@ -54,15 +54,15 @@ export default function Header() {
           <div className="flex items-center">
           {/* <Logo /> */}
           {/* <h1 className="text-sm sm:text-xl font-extrabold px-1 bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">TECHNOSPARX</h1> */}
-        {!imageLoaded && <Skeleton className="w-40 h-10 rounded-md mx-auto aspect-[2/1]" />}
-          <Image 
-                width={170}
-                disableSkeleton={false}
-                className="drop-shadow-xl pl-2" 
-                src={"https://i.ibb.co/mHDqLsc/Hustlers-Logo.png"} 
-                alt="" 
-                onLoad={handleImageLoad}
-              />
+          <h1 style={{ fontSize: '30px', padding: '2px' }}>Saas<span style={{ 
+  fontSize: '35px', 
+  padding: '2px', 
+  backgroundImage: 'linear-gradient(to right, rgb(245 154 16), rgb(237 84 133))', 
+  WebkitBackgroundClip: 'text',
+  color: 'transparent' 
+}}><b>Hustlers</b></span>
+</h1>
+        
               </div>
         </NavbarBrand>
           </Link>
