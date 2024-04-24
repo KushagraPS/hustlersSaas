@@ -583,10 +583,10 @@ const items = [
   },
 
   {
-    title: "Become a new age SaaS Founders",
+    title: "From Brainstorm to Breakout",
     description: (
       <span className="text-sm">
-        Getting valuable insights become the new age SaaS founders with exponential growth terms.
+       This emphasizes the transformation of brainstorming sessions into successful ventures.
       </span>
     ),
     header: <SkeletonFive />,
