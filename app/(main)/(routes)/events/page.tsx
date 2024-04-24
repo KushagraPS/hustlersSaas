@@ -608,10 +608,10 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "A Community of SaaS Founders",
+    title: "Any Stage Welcome",
     description: (
       <span className="text-sm">
-        Experience the power of SaaS in Startups.
+        Hustlers is for anyone with the drive to build a killer SaaS product. Passion and hustle are the only entry fees.
       </span>
     ),
     header: <SkeletonOne />,
@@ -619,10 +619,11 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Quality Reports",
+    title: "Open Books, No Secrets",
     description: (
       <span className="text-sm">
-        Let us get you the best content for SaaS.
+       Share startup wins, fails and laughs. Learn, connect & avoid stumbles. Be real and awesome!
+
       </span>
     ),
     header: <SkeletonTwo />,
@@ -630,10 +631,10 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Expert Suggestions",
+    title: "Pay it Forward",
     description: (
       <span className="text-sm">
-        Get suggestions based on your ideations.
+       Founders helping founders! Share problems, find connections, and get good karma (it boomerangs back!). 
       </span>
     ),
     header: <SkeletonThree />,
@@ -641,10 +642,10 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Connect to other founders",
+    title: "Building Empires on Hustle And Heart",
     description: (
       <span className="text-sm">
-       Connect with different founders learn more.
+      Brainstorm and celebrate wins (big and small) with our supportive founder community.
       </span>
     ),
     header: <SkeletonFour />,
@@ -653,10 +654,10 @@ const items = [
   },
 
   {
-    title: "Text Summarization",
+    title: "Become a new age SaaS Founders",
     description: (
       <span className="text-sm">
-        Summarize your lengthy documents with AI technology.
+        Getting valuable insights become the new age SaaS founders with exponential growth terms.
       </span>
     ),
     header: <SkeletonFive />,
