@@ -14,7 +14,9 @@ export default function Welcome() {
     return (
         <section className="w-full pt-5 md:pt-10 lg:pt-10 border-b pb-8">
             <div className="px-2 md:px-6 space-y-10 xl:space-y-16">
-                <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-5 md:grid-cols-2 md:gap-16 justify-center items-center">
+            <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-5 md:grid-cols-2 md:gap-16 justify-center items-center w-screen">
+
+
                     <div>
                         <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                            SaaS Startup Squad? <mark className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">We Got You</mark>
