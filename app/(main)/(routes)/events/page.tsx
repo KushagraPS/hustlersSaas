@@ -131,40 +131,40 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "AWS (Amazon Web Services)",
+    title: "Stripe",
     description:
-      "Confused by Cloud options? Don't worry, we've got you covered. Our AWS Evaluation Calculator simplifies choosing the right Amazon Web Services plan for your startup. No tech jargon, just easy cloud solutions!",
-    link: "https://aws.amazon.com/free/?gclid=Cj0KCQjwlZixBhCoARIsAIC745DcJXm20SnMcnkEW-QbaaHd3NNAcFbintfsckxjmI9aJIaC99YDWrQaAlH6EALw_wcB&trk=14a4002d-4936-4343-8211-b5a150ca592b&sc_channel=ps&ef_id=Cj0KCQjwlZixBhCoARIsAIC745DcJXm20SnMcnkEW-QbaaHd3NNAcFbintfsckxjmI9aJIaC99YDWrQaAlH6EALw_wcB:G:s&s_kwcid=AL!4422!3!453325184782!e!!g!!aws!10712784856!111477279771&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all",
+      "A technology company that builds economic infrastructure for the internet.",
+    link: "https://stripe.com",
   },
   {
-    title: "Market Research",
+    title: "Netflix",
     description:
-      "Skip the hours digging through data! Our Market Research tool helps you identify the hottest trends in your market, fast.",
-    link: "https://mailchimp.com/solutions/email-marketing-platform/?ds_c=DEPT_AOC_Google_Search_ROW_EN_NB_Acquire_Broad_50off_T5&ds_kids=p78365428698&ds_a_lid=kwd-10068951&ds_cid=71700000115522849&ds_agid=58700008587105020&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745DNbMnljUS6d3Fgx8SSro0j8Cm1NCutXNJA9_05Wg-Roc7YSZJTcIwaApUvEALw_wcB&gclsrc=aw.ds",
+      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+    link: "https://netflix.com",
   },
   {
-    title: "Pitch Deck Creator",
+    title: "Google",
     description:
-      "Design skills not your forte? No sweat! Our Pitch Deck Creator is your secret weapon. Craft a stunning investor pitch deck in minutes with our drag-and-drop tool.",
-    link: "https://www.beautiful.ai/aipresentationmaker?utm_source=googleAds&utm_medium=searchGen&utm_campaign=20876785622&ntwrk=g&adgpid=157705829955&plcmnt=&utm_term=ai%20deck%20builder&lp=aipresentationmaker&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745DaHMtHLFUNVlg3Zd7_Wgu3T1Mnj8tzOLkkbIsAnBQz_1CBCfiWcacaAja8EALw_wcB",
+      "A multinational technology company that specializes in Internet-related services and products.",
+    link: "https://google.com",
   },
   {
-    title: "Wixsite",
+    title: "Meta",
     description:
-      "Building a website shouldn't be a headache. Wix makes creating a professional website for your startup a breeze. Just drag, drop, and launch your online empire in record time.",
-    link: "https://www.wix.com/",
+      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+    link: "https://meta.com",
   },
   {
-    title: "Valuation Calculator ",
+    title: "Amazon",
     description:
-      "Need the perfect tool? Ours helps you choose! Enter your project details and our calculator finds the ideal solution for your startup.",
-    link: "https://www.omnicalculator.com/finance/pre-and-post-money-valuation",
+      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+    link: "https://amazon.com",
   },
   {
-    title: "Resume Parser",
+    title: "Microsoft",
     description:
-      "Hiring a team shouldn't be a chore. Our Resume Parser helps you quickly identify top talent for your open positions. Say goodbye to sifting through endless resumes - find rockstar applicants with superpowers in minutes.",
-    link: "https://resumeworded.com/score",
+      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    link: "https://microsoft.com",
   },
 ];
 
@@ -247,7 +247,66 @@ export function FollowingPointerDemo() {
           />
         }
       >
-     
+        <div className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white hover:shadow-xl border border-zinc-100">
+          <div className="w-full aspect-w-16 aspect-h-10 bg-gray-100 rounded-tr-lg rounded-tl-lg overflow-hidden xl:aspect-w-16 xl:aspect-h-10 relative">
+            {/* <Image
+              src={blogContent.image}
+              alt="thumbnail"
+              layout="fill"
+              objectFit="cover"
+              className={`group-hover:scale-95 group-hover:rounded-2xl transform object-cover transition duration-200 `}
+            /> */}
+          </div>
+          <div className=" p-4">
+            <h2 className="font-bold my-4 text-lg text-zinc-700">
+              {blogContent.title}
+            </h2>
+            <h2 className="font-normal my-4 text-sm text-zinc-500">
+              {blogContent.description}
+            </h2>
+            <div className="flex flex-row justify-between items-center mt-10">
+              <span className="text-sm text-gray-500">{blogContent.date}</span>
+              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+                Read More
+              </div>
+            </div>
+          </div>
+        </div>
+      </FollowerPointerCard>
+    </div>
+  );
+}
+
+const blogContent = {
+  slug: "100k+ ACV SaaS Companies: Do Their Metrics Differ from Other SaaS Companies?",
+  author: "Hustlers",
+  
+  title: "100k+ ACV SaaS Companies: Do Their Metrics Differ from Other SaaS Companies?",
+  description:
+    "When we published the results of the freemium survey earlier this year, we noticed respondents targeting the enterprise observed higher net dollar retention and lower churn than those startups targeting other segments. I wondered if we could observe any other patterns about enterprise businesses, so I produced this analysis of public companies with ACVs (annual contract values) of $100k or greater.",
+  image: "/demo/thumbnail.png",
+  authorAvatar: "/manu.png",
+};
+
+const TitleComponent = ({
+  title,
+  avatar,
+}: {
+  title: string;
+  avatar: string;
+}) => (
+  <div className="flex space-x-2 items-center">
+    <Image
+      src={avatar}
+      height="20"
+      width="20"
+      alt="thumbnail"
+      className="rounded-full border-2 border-white"
+    />
+    <p>{title}</p>
+  </div>
+);
+
 
 import { cn } from "@/lib/utils";
 
@@ -552,7 +611,8 @@ const items = [
     title: "Any Stage Welcome",
     description: (
       <span className="text-sm">
-        Hustlers is for anyone with the drive to build a killer SaaS product. Passion and hustle are the only entry fees.
+        Got a killer idea? Hustlers is for anyone with the drive to build a killer SaaS product. Passion and hustle are the only entry fees.
+
       </span>
     ),
     header: <SkeletonOne />,
@@ -560,11 +620,10 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Open Books, No Secrets",
+    title: "Quality Reports",
     description: (
       <span className="text-sm">
-       Share startup wins, fails and laughs. Learn, connect & avoid stumbles. Be real and awesome!
-
+        Let us get you the best content for SaaS.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -572,10 +631,10 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Pay it Forward",
+    title: "Expert Suggestions",
     description: (
       <span className="text-sm">
-       Founders helping founders! Share problems, find connections, and get good karma (it boomerangs back!). 
+        Get suggestions based on your ideations.
       </span>
     ),
     header: <SkeletonThree />,
@@ -583,10 +642,10 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Building Empires on Hustle And Heart",
+    title: "Connect to other founders",
     description: (
       <span className="text-sm">
-      Brainstorm and celebrate wins (big and small) with our supportive founder community.
+       Connect with different founders learn more.
       </span>
     ),
     header: <SkeletonFour />,
@@ -595,10 +654,10 @@ const items = [
   },
 
   {
-    title: "Become a new age SaaS Founders",
+    title: "Text Summarization",
     description: (
       <span className="text-sm">
-        Getting valuable insights become the new age SaaS founders with exponential growth terms.
+        Summarize your lengthy documents with AI technology.
       </span>
     ),
     header: <SkeletonFive />,
@@ -753,4 +812,6 @@ if (typeof document !== 'undefined') {
   styleElement.appendChild(document.createTextNode(styles));
   document.head.appendChild(styleElement);
 }
+
+
 
