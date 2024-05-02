@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Skeleton } from '../ui/skeleton';
 import { Image } from "@nextui-org/react";
 import { AnimatedTooltipPreview } from '@/app/(main)/(routes)/events/page';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Welcome() {
     const [imageLoaded, setImageLoaded] = useState(false);
@@ -31,6 +32,14 @@ export default function Welcome() {
                             >
                                 Join now
                             </button>
+                            <button 
+    className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm flex items-center justify-center"
+    onClick={() => { window.location.href = "https://chat.whatsapp.com/GdXOs71NaizIGjF7bcR0rM"; }}
+>
+    <FaWhatsapp className="mr-2" /> {/* WhatsApp icon */}
+    Whatsapp
+</button>
+                            
                         </div>
                     </div>
                     <div className="flex flex-col items-start space-y-4">
